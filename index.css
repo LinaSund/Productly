@@ -1,14 +1,9 @@
 .logo  {
 
-font-family: 'Montserrat'sans-serif;
-font-style: normal;
-   font-weight: bold;
-    position: left;
-left: 13.3%;
-right: 76.48%;
-top: 32.05%;
-bottom: 30.8%;
- 
+width: 143px;
+height: 29px;
+margin-top: 25px;
+margin-left: 186px; 
 
 }
 
@@ -23,10 +18,15 @@ background-color: blue;
 
 }
 
+.section {
 
+ display: inline;
+
+}
 .small-text {
 
     width: 350px;
+    height: 28px; 
     margin-top: 24px;
     margin-bottom: 26px;
     justify-content: right;
@@ -54,6 +54,9 @@ line-height: 28px;
 
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
 
 }
 
@@ -73,8 +76,8 @@ line-height: 28px;
     font-size: 16px;
     line-height: 24px;
     border: none;
-    background-color: orange;
-    color: white; 
+    background-color: orange; 
+    color: white;
 }
 
 .btn-2 {
@@ -93,7 +96,8 @@ line-height: 28px;
 
 }
 
-.img {
+.header-img {
+
 width: 100%;
 height: 100%;
 border: 5px;
@@ -101,6 +105,7 @@ display: right;
 justify-content: center;
 float: right; 
 align-items: right;
+position: relative;
 }
 
 .text {
@@ -135,19 +140,21 @@ line-height: 54px;
 }
 
 
-.button {
+.header-button {
 
     width: 366px;
     height: 53px;
     margin-top: 491;
     margin-left: 145px; 
+    display: flex;
+    position: relative;
     
 }
 
 .text-2 {
 /* We design tools to u */
 
-position: absolute;
+position: relative;
 height: 108px;
 left: 38.22%;
 right: 37.4%;
@@ -166,7 +173,7 @@ color: #2F281E;
 
 .info {
 
-    position: absolute;
+    position: relative;
     width: 240px;
     height: 178px;
     left: 567px;
@@ -177,7 +184,7 @@ color: #2F281E;
 
 .info2 {
 
-    position: absolute;
+    position: relative;
     width: 240px;
     height: 178px;
     left: 855px;

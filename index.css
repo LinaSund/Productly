@@ -17,7 +17,7 @@ margin-left: 186px;
     height: 28px; 
     margin-top: 15px;
     margin-bottom: 26px;
-    justify-content: right;
+    justify-content: center;
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
@@ -29,7 +29,7 @@ left: 46.43%;
 right: 28.57%;
 top: calc(50% - 28px/2 - 1px);
 
-font-family: Poppins;
+font-family: "Poppins";
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
@@ -52,11 +52,6 @@ line-height: 28px;
 
 }
 
-.header-info {
-
-    display: flex;
-
-}
 .btn-1 {
 
     width: 102px;
@@ -103,14 +98,13 @@ line-height: 28px;
 .main-info {
 
     /* Tools, tutorials, de */
-
 position: absolute;
+display: flex;
 width: 458px;
 height: 95px;
 left: 145px;
 top: 349px;
-
-font-family: Poppins;
+font-family: "Poppins";
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
@@ -133,7 +127,7 @@ border: 5px;
 display: flex;
 justify-content: flex-end; 
 /* align-items: stretch; */
-position: right;
+
 }
 
 .main-title { 
@@ -145,7 +139,7 @@ height: 108px;
 left: 145px;
 top: 211px;
 
-font-family: Poppins;
+font-family: "Poppins";
 font-style: normal;
 font-weight: bold;
 font-size: 44px;
@@ -164,7 +158,7 @@ color: #2F281E;
     left: 145px;
     top: 213px;
 
-    font-family: Poppins;
+    font-family: "Poppins";
 font-style: normal;
 font-weight: bold;
 font-size: 44px;
@@ -181,7 +175,7 @@ line-height: 54px;
     left: 145px;
     top: 351px;
     
-    font-family: Poppins;
+    font-family: "Poppins";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -203,7 +197,7 @@ justify-content: center;
 flex-direction: column-reverse;
 
 
-font-family: Poppins;
+font-family: "Poppins";
 font-style: normal;
 font-weight: bold;
 font-size: 20px;
@@ -228,11 +222,11 @@ color: #2F281E;
 
 .info1 {
 
-    position: static;
+
     width: 240px;
     height: 178px;
-    left: 567px;
-    top: 162px;
+    left: 20px;
+    top: 10px;
     display: flex;
     justify-content: left;
     text-align: left;
@@ -244,13 +238,13 @@ color: #2F281E;
 
 .info2 {
 
-    position: static;
+    
     display: flex;
     justify-content: space-between;
     width: 240px;
     height: 178px;
-    left: 855px;
-    top: 137px;
+    
+    
     text-align: left;
     align-items: flex-start;
     align-self: center;
@@ -259,15 +253,15 @@ color: #2F281E;
 }
 
 .text-3 {
-    position: flex;
+    display: flex;
     height: 54px;
     width: 385px;
     left: 20px;
-    top: 27px;
+    top: 20px;
     align-items: flex-start;
 align-self: baseline;
 
-font-family: Poppins;
+font-family: "Poppins";
 font-size: 36px;
 font-style: normal;
 font-weight: 700;
@@ -279,21 +273,15 @@ text-align: left;
     
 }
 
-.header-container {
-    display: flex;
-    max-width: 1125px;
-    width: 100%;
-}
+
 
 .header-info {
+    display: flex;
     max-width: 518px;
     width: 100%;
 }
 
-.header-img {
-    max-width: 700px;
-    height: 700px;
-}
+
 
 nav {
     display: flex;
@@ -331,7 +319,7 @@ justify-content: center;
 
 .text-4 {
     
-    font-family: Poppins;
+    font-family: "Poppins";
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -349,7 +337,7 @@ justify-content: center;
     right: 68.52%;
     top: calc(65%- 26px/2 - 32.2px);
     
-    font-family: Poppins;
+    font-family: "Poppins";
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
@@ -364,12 +352,26 @@ justify-content: center;
 
 .Man.png {
     display: flex; 
-    position: absolute;
     width: 520px;
     height: 574px;
-    left: 735px;
-    top: 1397px;
+    left: 0px;;
+    right: 0px;
+    top: 0pxx;
     justify-content: flex-end;
+align-self: flex-end;
+align-items: flex-end;
+
+}
+
+.Img-computer {
+    position: relative;
+    display :flex;
+    width: 535px;
+    height: 521px;
+   justify-content: center;
+    align-items: flex-end;
+    align-self: stretch;
+    flex-direction: row;
 
 
 

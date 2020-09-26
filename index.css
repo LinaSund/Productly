@@ -1,11 +1,73 @@
-.logo  {
 
-width: 143px;
-height: 29px;
-margin-top: 25px;
-margin-left: 186px; 
+.body {
+    font-family: 'poppins';
+    max-width: 1400px;
+    width: 100%;
 
 }
+
+.header {
+
+    max-width: 1100px;
+    width: 100%;
+    min-height: 604px;
+
+}
+
+.nav {
+
+    max-width: 1110px;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+
+}
+
+
+
+.logo  {
+
+width: 185px;
+
+}
+
+.ul {
+
+list-style: none;
+display: flex;
+max-width: 350px;
+width: 100%;
+justify-content: space-around;
+
+}
+
+.li {
+list-style: none;
+
+}
+
+.li > a {
+
+color: #2F281E;
+font-size: 14px; 
+line-height: 28px;
+text-decoration: none;
+
+}
+
+.li > a:hover {
+
+color: #FF9900;
+text-decoration: underline;
+
+}
+
+
 .section {
 
  display: inline;
@@ -53,21 +115,18 @@ line-height: 28px;
 }
 
 .btn-1 {
-
+    color: #173A56;
     width: 102px;
     height: 46px;
-    display: flex;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
-    border: 5px; 
-    background-color: white;
-    color: black;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: row;
+    border-radius: 4px;
+    border: 1px solid #BCD0E5; 
+    background-color: #fff;
+    margin-left: 29px;
+    margin-right: 14px;
 
 
 }
@@ -78,22 +137,21 @@ line-height: 28px;
 
 .btn-2 {
 
-    width: 102px;
+    width: 110px;
     height: 46px;
-    display: flex;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 24px;
-    border: none;
-    background-color: orange;
+    border-radius: 4px;
+    background-color: #FF9900;
     color: white; 
-    border-radius: 0px;
-    padding: 0px;
-    justify-content: center;
+    border:none;
 
 }
+
+
+
 
 .main-info {
 
@@ -119,18 +177,52 @@ color: #544837;
 
 .header-img {
 
-width: 605px;
-height: 496px;
-padding: 10px;
-margin: 20px;
-border: 5px;
-display: flex;
-justify-content: flex-end; 
+max-width: 605px;
+width: 100%;
+margin-right: 3px;
 /* align-items: stretch; */
 
 }
 
-.main-title { 
+.btn-start  {
+
+    width: 175px;
+    height: 53px;
+    border-radius: 4px;
+    border: none;
+    background-color: #FF9900;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-start:hover { 
+
+    background-color: #173A56;
+
+}
+ .btn-vid { 
+     width: 161px;
+     height: 23px;
+     border-radius: 4px;
+     border: none;
+     background-color: #fff;
+     color: #FF9900;
+     text-decoration: underline;
+     font-size: 16px;
+     font-weight: 600;
+     margin-left: 30px;
+ }
+
+.btn-vid:hover {
+
+    background-color: #173A56;
+    color: #fff;
+
+}
+
+
+ .main-title { 
 /* The Design Thinking */
 
 position: absolute;
@@ -329,7 +421,7 @@ justify-content: center;
     
 }
 
-.small-header {
+/*.small-header/* {
 
     position: relative;
     height: 26px;
@@ -346,33 +438,100 @@ justify-content: center;
     /* identical to box height, or 162% */
     
     
-    color: #2F281E;
-    
-}
 
-.Man.png {
-    display: flex; 
-    width: 520px;
-    height: 574px;
-    left: 0px;;
-    right: 0px;
-    top: 0pxx;
-    justify-content: flex-end;
-align-self: flex-end;
-align-items: flex-end;
+
+.Man-with-phone.png {
+    display: block;
+    max-width: 520px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    float: right;
 
 }
 
 .Img-computer {
-    position: relative;
+
     display :flex;
     width: 535px;
     height: 521px;
    justify-content: center;
     align-items: flex-end;
-    align-self: stretch;
-    flex-direction: row;
+    align-self: normal;
+    left: 0%;
+    float: left;
+    margin-left: 0;
+
+    }
+
+    .design-container {
+
+    max-width: 1110px;
+    width:100%;
+    min-height: 574px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+
+    .design-info {
+
+        max-width: 486px;
+        width:100%;
+        min-height: 531px;
+
+    }
+
+.design-img {
+
+max-width: 540px;
+width: 100%;
+margin-left: 3px;
+
+}
 
 
+.design-effort {
+
+max-width: 186px;
+width: 100%;
+font-weight: 500;
+font-size: 16px;
+margin-bottom: 3px;
+color: #544837;
+
+}
+
+.design-title {
+
+max-width: 385px;
+width: 100%;
+font-weight: bold;
+font-size: 36px;
+margin-bottom: 22px;
+color: #2F281E;
+
+}
+
+.design-txt {
+
+    max-width: 486px;
+    width: 100%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 25px;
+    color: #544837;
+
+}
+
+.design-small-title {
+
+    font-size: 16px;
+    font-weight: bold;
+    color:#2F281E;
+    line-height: 26px;
+    margin-bottom: 12px;
 
 }
